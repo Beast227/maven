@@ -17,6 +17,7 @@
   </properties>
 
   <dependencies>
+    
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
@@ -24,4 +25,24 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <archiive>
+            <manifest>
+              <mainClass>com.p6.program.App</mainClass>
+            </manifest>
+          </archive>
+          </configuration>
+      </plugin>
+    </plugins>
+  </build>
+      </plugin>
+    </plugins>  
+  </build>
 </project>
