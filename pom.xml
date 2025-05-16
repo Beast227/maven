@@ -33,7 +33,7 @@
         <artifactId>maven-jar-plugin</artifactId>
         <version>3.2.2</version>
         <configuration>
-          <archiive>
+          <archive>
             <manifest>
               <mainClass>com.p6.program.App</mainClass>
             </manifest>
